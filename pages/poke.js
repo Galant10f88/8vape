@@ -2,7 +2,8 @@ import React from "react";
 import axios from "axios";
 
 const style = {
-    ccs: 'text-center'
+    ccs: 'text-center',
+    but: 'border border-black bg-slate-500 rounded-sm'
 }
 
 export default function App() {
@@ -35,7 +36,7 @@ export default function App() {
             ))}
         </tbody>
       </table>
-      <button onClick={getData}>Get List</button>
+      <button className={style.but} onClick={getData}>Get List</button>
     </div>
   );
 }

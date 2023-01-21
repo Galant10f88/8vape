@@ -33,7 +33,7 @@ const Header = () => {
                 <Link href="../../requirements">
                     <div className={style.headerBut}> Requirements </div>
                 </Link>
-                <Link href="../../newTest">
+                <Link href="../../poke">
                     <div className={style.hidden}> . </div>
                 </Link>
             </div>
