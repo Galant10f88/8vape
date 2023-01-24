@@ -9,8 +9,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Disney</title>
-        <link rel="icon" href="/blueMick.png" />
+        <title>CELESTIAL</title>
+        <link rel="icon" href="/razer.png" />
       </Head>
       <Header />
       <Component {...pageProps} />
