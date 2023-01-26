@@ -6,6 +6,13 @@ import Media from '../components/media'
 import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    const use = async () => {
+      (await import('tw-elements')).default;
+    };
+    use();
+  }, []);
+  
   return (
     <>
       <Head>
