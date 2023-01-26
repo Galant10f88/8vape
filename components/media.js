@@ -11,8 +11,8 @@ const style = {
     discord: 'text-blue-700 text-2xl px-4 font-bold hover:text-white border border-transparent bg hover:bg-transparent rounded-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 ... cursor-pointer',
     insta: 'text-blue-700 text-2xl px-4 font-bold hover:text-white border border-transparent bg hover:bg-transparent rounded-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 ... cursor-pointer',
     twit: 'text-blue-700 text-2xl px-4 font-bold hover:text-white border border-transparent bg hover:bg-transparent rounded-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 ... cursor-pointer',
-    boxy: 'bg-gradient-to-r from-blue-500 via-cyan-200 to-green-400 w-screen rounded-none p-8 border border-transparent',
-    media: 'relative text-gray-700 text-center text-[30px] font-semibold',
+    boxy: 'bg-gradient-to-r from-blue-400 via-teal-400 to-green-400 w-screen rounded-none p-8 border border-transparent animate-gradient-xy',
+    media: 'relative text-gray-800 text-center text-[30px] font-semibold',
 }
 
 
@@ -24,13 +24,13 @@ const Media = () => {
               Connect with Us!
             </div>
             <div className={style.social}>
-                            <Link href='https://cryptable.netlify.app/'>
+                            <Link href='https://www.instagram.com/eightcig/?hl=en'>
                                 <div className={style.insta}><RxInstagramLogo/></div>
                             </Link>
-                            <Link href='https://disney15.netlify.app/'>
+                            <Link href='https://www.facebook.com/eightcig/'>
                                 <div className={style.discord}><RxDiscordLogo/></div>
                             </Link>
-                            <Link href='https://elkgrums.netlify.app/'>
+                            <Link href='https://twitter.com/EightVape?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'>
                                 <div className={style.twit}><RxTwitterLogo/></div>
                             </Link>
             </div>

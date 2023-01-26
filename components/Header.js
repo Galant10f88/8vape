@@ -8,7 +8,7 @@ import mick from '../public/razer.png'
 //backdrop-blur-sm bg-gradient-to-r from-green-200/90 via-white/90 to-rose-200/90
 
 const style = {
-    wrapper: 'justify-between sticky top-0 z-50 bg-[#04111d] w-screen px-[1.2rem] py-0 flex shadow-xl backdrop-blur-sm bg-opacity-40 bg-gradient-to-r from-green-200/90 via-white/90 to-rose-200/90',
+    wrapper: 'justify-between sticky top-0 z-50 bg-[#04111d] w-screen px-[1.2rem] py-2 flex shadow-xl backdrop-blur-sm bg-opacity-40 bg-gradient-to-r from-green-200/90 via-white/90 to-rose-200/90',
     logoContainer: 'flex items-center cursor-pointer',
     logoText: 'ml-[0.8rem] text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-sky-400 to-green-400 font-bold text-4xl',
     headerItems: 'flex items-center justify-end',
@@ -22,24 +22,21 @@ const Header = () => {
         <Link href="/">
             <div className={style.logoContainer}>
                     <Image src={mick} height={70} width={70} alt='' />
-                    <div className={style.logoText}>CELESTIAL</div>
+                    <div className={style.logoText}>8Vape</div>
             </div>
         </Link>
             <div className={style.headerItems}>
-                <Link href="https://disney15.netlify.app/">
-                    <div className={style.headerBut}> Web Design </div>
+                <Link href="../characters">
+                    <div className={style.headerBut}> Dashboard </div>
                 </Link>
                 <Link href="https://cryptable.netlify.app/">
-                    <div className={style.headerBut}> Blockchain </div>
+                    <div className={style.headerBut}> Vapes </div>
                 </Link>
                 <Link href="https://elkgrums.netlify.app/">
-                    <div className={style.headerBut}> SEO </div>
+                    <div className={style.headerBut}> Juice </div>
                 </Link>
                 <Link href="https://elkgrums.netlify.app/">
-                    <div className={style.headerBut}> Marketing </div>
-                </Link>
-                <Link href="https://disney15.netlify.app/">
-                    <div className={style.headerBut}> Maintenance </div>
+                    <div className={style.headerBut}> Cigarrettes </div>
                 </Link>
                 <Link href="../../dev">
                     <div className={style.hidden}> . </div>

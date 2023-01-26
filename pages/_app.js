@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>CELESTIAL</title>
+        <title>8Vape</title>
         <link rel="icon" href="/razer.png" />
       </Head>
       <Header />

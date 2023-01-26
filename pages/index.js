@@ -1,10 +1,12 @@
 //import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Slider from '../components/slider'
 
 //min-h-screen
 
 const style = {
+  wrapper: 'relative flex h-[500vh]',
   container: '',
   contentWrapper: 'flex h-screen relative justify-center flex-wrap items-center',
   cele: 'text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-500 to-fuchsia-500 font-bold text-6xl'
@@ -12,20 +14,22 @@ const style = {
 
 const Home = () => {
   return (
-    <div className="relative flex h-[130vh] flex-col items-center justify-center py-2">
+    <div className={style.wrapper}>
+    <div className="relative flex h-[120vh] flex-col items-center justify-center py-2">
       <div className={style.container}>
       <div className={style.contentWrapper}>
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
-          <a className={style.cele} href="https://cryptable.netlify.app/">
-            CELESTIAL
+          <a className={style.cele} href="https://www.eightcig.com/">
+            8Vape
           </a>
         </h1>
 
         <p className="mt-3 text-2xl">
-          We are here to serve all your internet business needs
+          We are here to serve all your vaping needs!
         </p>
+        <Slider/>
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
@@ -71,6 +75,7 @@ const Home = () => {
       </main>
       </div>
       </div>
+    </div>
     </div>
   )
 }
