@@ -26,7 +26,7 @@ const Header = () => {
             </div>
         </Link>
             <div className={style.headerItems}>
-                <Link href="../characters">
+                <Link href="../work">
                     <div className={style.headerBut}> Dashboard </div>
                 </Link>
                 <Link href="https://www.eightvape.com/collections/vapes">

@@ -46,7 +46,7 @@ const Home = () => {
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
-            href="../characters"
+            href="../work"
             className="mt-6 w-96 rounded-xl border-2 border-green-500 p-6 text-left hover:text-cyan-400 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Dashboard &rarr;</h3>
