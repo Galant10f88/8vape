@@ -1,23 +1,17 @@
 import '../styles/globals.css'
-//import type { AppProps } from 'next/app'
+import type { AppProps } from 'next/app'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Media from '../components/media'
 import Head from 'next/head'
 
-function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    const use = async () => {
-      (await import('tw-elements')).default;
-    };
-    use();
-  }, []);
-  
+function MyApp({ Component, pageProps }: AppProps) {
+
   return (
     <>
       <Head>
         <title>8Vape</title>
-        <link rel="icon" href="/razer.png" />
+        <link rel="icon" href="/ecig.webp" />
       </Head>
       <Header />
       <Component {...pageProps} />

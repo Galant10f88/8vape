@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 //import { AiOutlineSearch } from 'react-icons/ai'
 //import { CgProfile } from 'react-icons/cg'
-import mick from '../public/razer.png'
+import mick from '../public/infinity.png'
 
 //backdrop-blur-sm bg-gradient-to-r from-green-200/90 via-white/90 to-rose-200/90
 
@@ -29,13 +29,13 @@ const Header = () => {
                 <Link href="../characters">
                     <div className={style.headerBut}> Dashboard </div>
                 </Link>
-                <Link href="https://cryptable.netlify.app/">
+                <Link href="https://www.eightvape.com/collections/vapes">
                     <div className={style.headerBut}> Vapes </div>
                 </Link>
-                <Link href="https://elkgrums.netlify.app/">
+                <Link href="https://www.eightvape.com/collections/e-liquid">
                     <div className={style.headerBut}> Juice </div>
                 </Link>
-                <Link href="https://elkgrums.netlify.app/">
+                <Link href="https://www.eightcig.com/cigarette-solutions/">
                     <div className={style.headerBut}> Cigarrettes </div>
                 </Link>
                 <Link href="../../dev">
